@@ -1,0 +1,19 @@
+# Day 2 - Linux Authentication Log Analysis
+
+# 1. Sudo and authentication logs
+sudo journalctl -b --no-pager | grep -Ei 'sshd|sudo|pam_unix|authentication failure|failed password|accepted password' | tail -n 50
+
+# 2. Failed login attempts
+sudo journalctl -b --no-pager | grep -iE 'failed password|authentication failure|invalid user'
+
+# 3. Successful sessions
+sudo journalctl -b --no-pager | grep -Ei 'session opened' | tail -n 20
+
+# 4. Login history
+last -ai | head -n 15
+
+# 5. SSH service status
+systemctl status ssh --no-pager
+
+# 6. SSH authentication events
+sudo journalctl -b --no-pager | grep -iE 'sshd.*(accepted|failed|invalid)|ssh.*authentication'
