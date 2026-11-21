@@ -1,0 +1,3 @@
+Nov 16 10:00:01 kali sshd[2101]: Failed password for kali from 192.168.1.80 port 50120 ssh2
+Nov 16 10:00:15 kali sshd[2102]: Accepted password for kali from 192.168.1.80 port 50121 ssh2
+Nov 16 10:00:16 kali sshd[2102]: pam_unix(sshd:session): session opened for user kali

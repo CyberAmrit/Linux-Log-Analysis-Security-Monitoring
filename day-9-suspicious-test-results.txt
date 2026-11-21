@@ -1,0 +1,97 @@
+
+Building event timeline...
+
+AUTHENTICATION EVENT TIMELINE
+------------------------------------------------------------
+Nov 09 07:25:01 | SESSION CLOSED | Nov 09 07:25:01 kali CRON[30154]: pam_unix(cron:session): session closed for user root
+Nov 09 07:25:19 | SUDO | Nov 09 07:25:19 kali sudo[30306]:     kali : TTY=pts/1 ; PWD=/home/kali/Cybersecurity-Internship/Project-1-Log-Analysis ; USER=root ; COMMAND=/usr/bin/journalctl -b --no-pager
+Nov 09 07:25:19 | SESSION OPENED | Nov 09 07:25:19 kali sudo[30306]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Nov 09 07:25:19 | SESSION CLOSED | Nov 09 07:25:19 kali sudo[30306]: pam_unix(sudo:session): session closed for user root
+Nov 09 07:31:15 | SUDO | Nov 09 07:31:15 kali sudo[33103]:     kali : TTY=pts/1 ; PWD=/home/kali/Cybersecurity-Internship/Project-1-Log-Analysis ; USER=root ; COMMAND=/usr/bin/systemctl status ssh --no-pager
+Nov 09 07:31:15 | SESSION OPENED | Nov 09 07:31:15 kali sudo[33103]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Nov 09 07:31:15 | SESSION CLOSED | Nov 09 07:31:15 kali sudo[33103]: pam_unix(sudo:session): session closed for user root
+Nov 09 07:34:50 | SUDO | Nov 09 07:34:50 kali sudo[34968]:     kali : TTY=pts/1 ; PWD=/home/kali/Cybersecurity-Internship/Project-1-Log-Analysis ; USER=root ; COMMAND=/usr/bin/systemctl status ssh --no-pager
+Nov 09 07:34:50 | SESSION OPENED | Nov 09 07:34:50 kali sudo[34968]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Nov 09 07:34:50 | SESSION CLOSED | Nov 09 07:34:50 kali sudo[34968]: pam_unix(sudo:session): session closed for user root
+Nov 09 07:35:01 | SESSION OPENED | Nov 09 07:35:01 kali CRON[35063]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 09 07:35:01 | SESSION CLOSED | Nov 09 07:35:01 kali CRON[35063]: pam_unix(cron:session): session closed for user root
+Nov 09 07:36:49 | SUDO | Nov 09 07:36:49 kali sudo[36007]:     kali : TTY=pts/1 ; PWD=/home/kali/Cybersecurity-Internship/Project-1-Log-Analysis ; USER=root ; COMMAND=/usr/bin/systemctl -b -u ssh.service --no-pager
+Nov 09 07:36:49 | SESSION OPENED | Nov 09 07:36:49 kali sudo[36007]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Nov 09 07:36:49 | SESSION CLOSED | Nov 09 07:36:49 kali sudo[36007]: pam_unix(sudo:session): session closed for user root
+Nov 09 07:37:20 | SUDO | Nov 09 07:37:20 kali sudo[36292]:     kali : TTY=pts/1 ; PWD=/home/kali/Cybersecurity-Internship/Project-1-Log-Analysis ; USER=root ; COMMAND=/usr/bin/journalctl -b -u ssh.service --no-pager
+Nov 09 07:37:20 | SESSION OPENED | Nov 09 07:37:20 kali sudo[36292]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Nov 09 07:37:20 | SESSION CLOSED | Nov 09 07:37:20 kali sudo[36292]: pam_unix(sudo:session): session closed for user root
+Nov 09 07:38:03 | SUDO | Nov 09 07:38:03 kali sudo[36650]:     kali : TTY=pts/1 ; PWD=/home/kali/Cybersecurity-Internship/Project-1-Log-Analysis ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+Nov 09 07:38:03 | SESSION OPENED | Nov 09 07:38:03 kali sudo[36650]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Nov 09 07:38:03 | SESSION CLOSED | Nov 09 07:38:03 kali sudo[36650]: pam_unix(sudo:session): session closed for user root
+Nov 09 08:05:01 | SESSION OPENED | Nov 09 08:05:01 kali CRON[37936]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 09 08:05:01 | SESSION CLOSED | Nov 09 08:05:01 kali CRON[37936]: pam_unix(cron:session): session closed for user root
+Nov 09 08:05:19 | SUDO | Nov 09 08:05:19 kali sudo[38084]:     kali : TTY=pts/1 ; PWD=/home/kali/Cybersecurity-Internship/Project-1-Log-Analysis ; USER=root ; COMMAND=/usr/bin/journalctl -b --no-pager
+Nov 09 08:05:19 | SESSION OPENED | Nov 09 08:05:19 kali sudo[38084]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Nov 09 08:05:19 | SESSION CLOSED | Nov 09 08:05:19 kali sudo[38084]: pam_unix(sudo:session): session closed for user root
+Nov 09 08:09:01 | SESSION OPENED | Nov 09 08:09:01 kali CRON[39872]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 09 08:09:01 | SESSION CLOSED | Nov 09 08:09:01 kali CRON[39872]: pam_unix(cron:session): session closed for user root
+Nov 09 08:15:01 | SESSION OPENED | Nov 09 08:15:01 kali CRON[41900]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 09 08:15:01 | SESSION CLOSED | Nov 09 08:15:01 kali CRON[41900]: pam_unix(cron:session): session closed for user root
+Nov 09 08:17:01 | SESSION OPENED | Nov 09 08:17:01 kali CRON[42869]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 09 08:17:01 | SESSION CLOSED | Nov 09 08:17:01 kali CRON[42869]: pam_unix(cron:session): session closed for user root
+Nov 09 08:20:07 | SUDO | Nov 09 08:20:07 kali sudo[44499]:     kali : TTY=pts/1 ; PWD=/home/kali/Cybersecurity-Internship/Project-1-Log-Analysis ; USER=root ; COMMAND=/usr/bin/journalctl -b --no-pager
+Nov 09 08:20:07 | SESSION OPENED | Nov 09 08:20:07 kali sudo[44499]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Nov 09 08:20:07 | SESSION CLOSED | Nov 09 08:20:07 kali sudo[44499]: pam_unix(sudo:session): session closed for user root
+Nov 09 08:21:47 | SUDO | Nov 09 08:21:47 kali sudo[45413]:     kali : TTY=pts/1 ; PWD=/home/kali/Cybersecurity-Internship/Project-1-Log-Analysis ; USER=root ; COMMAND=/usr/bin/journalctl -b --no-pager
+Nov 09 08:21:47 | SESSION OPENED | Nov 09 08:21:47 kali sudo[45413]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Nov 09 08:21:47 | SESSION CLOSED | Nov 09 08:21:47 kali sudo[45413]: pam_unix(sudo:session): session closed for user root
+Nov 09 08:25:01 | SESSION OPENED | Nov 09 08:25:01 kali CRON[47023]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 09 08:25:01 | SESSION CLOSED | Nov 09 08:25:01 kali CRON[47023]: pam_unix(cron:session): session closed for user root
+Nov 09 08:28:27 | SUDO | Nov 09 08:28:27 kali sudo[48808]:     kali : TTY=pts/1 ; PWD=/home/kali/Cybersecurity-Internship/Project-1-Log-Analysis ; USER=root ; COMMAND=/usr/bin/journalctl -b --no-pager
+Nov 09 08:28:27 | SESSION OPENED | Nov 09 08:28:27 kali sudo[48808]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Nov 09 08:28:27 | SESSION CLOSED | Nov 09 08:28:27 kali sudo[48808]: pam_unix(sudo:session): session closed for user root
+Nov 09 08:45:01 | SESSION OPENED | Nov 09 08:45:01 kali CRON[51461]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Nov 09 08:45:01 | SESSION CLOSED | Nov 09 08:45:01 kali CRON[51461]: pam_unix(cron:session): session closed for user root
+Nov 09 08:50:03 | SUDO | Nov 09 08:50:03 kali sudo[53967]:     kali : TTY=pts/1 ; PWD=/home/kali/Cybersecurity-Internship/Project-1-Log-Analysis ; USER=root ; COMMAND=/usr/bin/journalctl -b --no-pager
+Nov 09 08:50:03 | SESSION OPENED | Nov 09 08:50:03 kali sudo[53967]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Nov 09 08:50:03 | SESSION CLOSED | Nov 09 08:50:03 kali sudo[53967]: pam_unix(sudo:session): session closed for user root
+Nov 09 08:53:19 | SUDO | Nov 09 08:53:19 kali sudo[55564]:     kali : TTY=pts/1 ; PWD=/home/kali/Cybersecurity-Internship/Project-1-Log-Analysis ; USER=root ; COMMAND=/usr/bin/journalctl -b --no-pager
+Nov 09 08:53:19 | SESSION OPENED | Nov 09 08:53:19 kali sudo[55564]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+
+Total timeline events: 50
+=============================================
+LINUX AUTHENTICATION LOG ANALYZER
+=============================================
+
+ANALYSIS RESULTS
+---------------------------------------------
+Total log lines: 50
+Sudo events: 35
+Sessions opened: 19
+Sessions closed: 19
+Cron events: 15
+Authentication failure matches: 0
+
+Analysis completed successfully.
+=============================================
+
+LOG SEVERITY CLASSIFICATION
+---------------------------------------------
+
+SEVERITY SUMMARY
+---------------------------------------------
+CRITICAL : 0
+ERROR : 0
+WARNING : 0
+INFO : 50
+
+Severity classification completed.
+
+SUSPICIOUS ACTIVITY DETECTION
+---------------------------------------------
+Failed login attempts: 3
+Invalid user events: 0
+Successful logins: 0
+
+SOURCE IP ANALYSIS
+---------------------------------------------
+192.168.1.90 : 3 failed attempts
+ALERT: Repeated failed login attempts detected!
+
+Suspicious activity analysis completed.

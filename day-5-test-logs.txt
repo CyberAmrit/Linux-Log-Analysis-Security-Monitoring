@@ -1,0 +1,5 @@
+Nov 12 10:15:01 kali sshd[4101]: Failed password for kali from 192.168.1.50 port 5021 ssh2
+Nov 12 10:15:05 kali sshd[4102]: Failed password for kali from 192.168.1.50 port 5022 ssh2
+Nov 12 10:15:09 kali sshd[4103]: Failed password for kali from 192.168.1.50 port 5023 ssh2
+Nov 12 10:16:01 kali sshd[4104]: Invalid user admin from 192.168.1.60 port 5030
+Nov 12 10:17:01 kali sshd[4105]: Accepted password for kali from 192.168.1.70 port 5040 ssh2

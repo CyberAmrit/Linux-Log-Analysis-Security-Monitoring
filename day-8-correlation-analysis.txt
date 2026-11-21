@@ -1,0 +1,85 @@
+Day 8 – Security Event Correlation Analysis
+
+1. Objective
+
+The objective of this analysis is to correlate Linux authentication logs, sudo activity, and simulated suspicious login events to understand normal and potentially suspicious system activity.
+
+2. Authentication Log Analysis
+
+- Total log lines analysed: 50
+- Total timeline events: 50
+- Authentication failure matches: 0
+- Sudo events: 35
+- Sessions opened: 19
+- Sessions closed: 19
+- CRON events: 15
+
+3. Sudo Activity Analysis
+
+- Total sudo events: 35
+- Sudo commands verified on Day 7: 12
+- journalctl executions: 8
+- systemctl executions: 4
+- No obviously suspicious command was identified in the reviewed activity.
+
+4. Simulated Suspicious Login Analysis
+
+- Failed login attempts: 3
+- Invalid user events: 1
+- Successful login events: 1
+- Source IP: 192.168.1.50
+- Repeated failed login alert: Triggered
+
+5. Correlation and Observations
+
+The normal authentication log analysis showed no authentication failure matches. 
+However, the separate simulated test log contained three failed login attempts and 
+one invalid user event from the source IP 192.168.1.50.
+
+The repeated failure detection mechanism successfully generated an alert.
+This demonstrates the usefulness of analysing authentication events and identifying
+repeated suspicious patterns.
+
+6. Preliminary Conclusion
+
+The analysis demonstrates how Linux authentication logs 
+and simulated security events can be examined together. 
+The findings are preliminary and require further validation
+before classifying any activity as a confirmed security incident.
+
+7. Status
+
+Day 8 – Initial correlation analysis documented.
+DAY 8: VERIFIED CORRELATION FINDINGS
+
+1. MAIN AUTHENTICATION LOG
+Total log lines: 50
+Failed password matches: 0
+Invalid user matches: 0
+Accepted password matches: 0
+
+2. SIMULATED TEST LOG
+Failed password attempts: 3
+Invalid user events: 1
+Successful login events: 1
+Repeated failed attempts source IP: 192.168.1.50
+Invalid user source IP: 192.168.1.60
+Successful login source IP: 192.168.1.70
+
+3. SUDO ACTIVITY
+Total verified sudo command entries: 12
+journalctl commands: 8
+systemctl commands: 4
+No matching events found for the checked suspicious patterns.
+
+4. CORRELATION OBSERVATION
+The main authentication log and simulated test log are separate datasets.
+The main log contained no matches for the checked authentication patterns.
+The simulated test log contained repeated failed login attempts from 192.168.1.50.
+The Day 7 sudo command review showed routine log and SSH service status checks.
+
+5. CONCLUSION
+The analysis successfully distinguished normal
+system log activity from simulated suspicious
+authentication events. The repeated failed login
+alert was detected in the test dataset.

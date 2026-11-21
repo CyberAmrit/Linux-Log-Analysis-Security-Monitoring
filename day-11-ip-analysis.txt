@@ -1,0 +1,12 @@
+==================================================
+DAY 11 - IP-WISE FAILED LOGIN ANALYSIS
+==================================================
+Total Failed Login Events: 3
+Unique Source IPs: 1
+--------------------------------------------------
+Source IP: 192.168.1.90
+Failed Attempts: 3
+Status: SUSPICIOUS - Threshold reached
+Reason: 3 or more attempts within 60 seconds
+--------------------------------------------------
+Analysis completed.

@@ -1,0 +1,45 @@
+=======================================================
+DAY 13 - INTEGRATED SECURITY MONITORING SUMMARY
+=======================================================
+Analysis Date: 2026-11-19 09:19:52
+
+DAY 11 - IP-WISE FAILED LOGIN ANALYSIS
+-------------------------------------------------------
+==================================================
+DAY 11 - IP-WISE FAILED LOGIN ANALYSIS
+==================================================
+Total Failed Login Events: 3
+Unique Source IPs: 1
+--------------------------------------------------
+Source IP: 192.168.1.90
+Failed Attempts: 3
+Status: SUSPICIOUS - Threshold reached
+Reason: 3 or more attempts within 60 seconds
+--------------------------------------------------
+Analysis completed.
+
+DAY 12 - AUTHENTICATION LOG ANALYSIS
+-------------------------------------------------------
+======================================================================
+DAY 12 - AUTHENTICATION LOG ANALYSIS
+======================================================================
+Total Log Lines: 50
+----------------------------------------------------------------------
+Sudo Matches: 35
+Sudo Colon Matches: 23
+Root Sessions Opened: 19
+Root Sessions Closed: 19
+CRON Events: 15
+Failed Authentication Matches: 0
+----------------------------------------------------------------------
+Session Count Status: BALANCED
+Authentication Failure Status: NO MATCHES FOUND
+======================================================================
+DAY 12 ANALYSIS COMPLETED
+======================================================================
+
+=======================================================
+SUMMARY: Previous analysis evidence reviewed.
+Note: This report consolidates existing findings;
+it does not independently verify a live security incident.
+=======================================================

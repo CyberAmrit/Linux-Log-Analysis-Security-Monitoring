@@ -1,0 +1,2 @@
+DAY 7-SECURITY CHECK
+No failed sudo authentication or unauthorized susdo access events found.

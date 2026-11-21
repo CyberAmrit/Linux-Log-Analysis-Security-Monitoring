@@ -1,0 +1,6 @@
+====== DAY 7: SUDO COMMAND SUMMARY =======
+      7 COMMAND=/usr/bin/journalctl -b --no-pager
+      1 COMMAND=/usr/bin/journalctl -b -u ssh.service --no-pager
+      1 COMMAND=/usr/bin/systemctl -b -u ssh.service --no-pager
+      1 COMMAND=/usr/bin/systemctl status ssh
+      2 COMMAND=/usr/bin/systemctl status ssh --no-pager

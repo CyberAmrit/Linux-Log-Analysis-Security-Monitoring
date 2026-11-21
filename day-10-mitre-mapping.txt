@@ -1,0 +1,99 @@
+DAY 10 – MITRE ATT&CK MAPPING
+Project: Linux Log Analysis and Security Monitoring
+
+1. OBJECTIVE
+The objective of this activity is to map security events 
+identified during Linux log analysis to relevant MITRE
+ATT&CK techniques.
+
+2. OBSERVED SECURITY EVENTS
+
+A. FAILED LOGIN ATTEMPTS
+Observation:
+Three failed login attempts were identified in
+the Day 5 test dataset.
+
+Security relevance:
+Repeated authentication failures may indicate
+password guessing or brute-force behaviour.
+
+MITRE ATT&CK:
+T1110 – Brute Force
+
+B. INVALID USER ATTEMPTS
+Observation:
+One invalid username attempt was identified.
+
+Security relevance:
+An unknown username may indicate account discovery or username 
+guessing.
+
+MITRE ATT&CK:
+T1087 – Account Discovery (potentially relevant; not confirmed).
+
+C. SUCCESSFUL LOGIN
+Observation:
+One successful login was identified in the test dataset.
+
+Security relevance:
+Successful authentication requires investigation 
+when it follows suspicious login activity.
+
+MITRE ATT&CK:
+T1078 – Valid Accounts (potentially relevant; not confirmed).
+
+D. SUDO ACTIVITY
+Observation:
+Sudo-related events were identified in Linux authentication logs.
+
+Security relevance:
+Sudo provides privileged access and should be monitored
+for unexpected activity.
+
+MITRE ATT&CK:
+T1548.003 – Sudo and Sudo Caching (relevant to investigation).
+
+3. SECURITY ANALYSIS
+
+The test logs demonstrated that the analyser can identify
+failed login attempts, invalid usernames, successful logins 
+and repeated failures.
+
+The original authentication logs also provided visibility
+into sudo activity and session events.
+
+MITRE ATT&CK mapping helps analysts understand the possible 
+security significance of these events.
+
+4. IMPORTANT LIMITATIONS
+
+- Test logs are simulated and do not prove a real cyberattack.
+- A successful login does not automatically indicate malicious 
+  activity.
+- Sudo usage is not automatically suspicious.
+- Technique mapping is based on observed behaviour and requires
+  further investigation.
+- The repeated-failure detection counter currently operates across
+  the input file rather than independently grouping every event
+  by source IP.
+
+5. SECURITY RECOMMENDATIONS
+
+- Monitor repeated authentication failures.
+- Investigate unknown usernames.
+- Review unexpected successful login activity.
+- Audit privileged sudo commands.
+- Maintain authentication logs and timestamps.
+- Use account-specific monitoring and appropriate access controls.
+
+6. CONCLUSION
+
+Day 10 connected Linux log analysis findings with
+the MITRE ATT&CK framework.
+
+This activity improved understanding
+of authentication monitoring, privileged
+activity and security event investigation.
+
+Project: Linux Log Analysis and Security Monitoring
+Day: 10

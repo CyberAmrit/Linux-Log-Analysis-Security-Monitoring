@@ -1,0 +1,15 @@
+kali     tty7         Mon Nov  9 06:30 - still logged in    :0
+lightdm  tty7         Mon Nov  9 06:29 - 06:30  (00:00)     :0
+kali     tty7         Mon Nov  9 03:13 - 03:59  (00:46)     :0
+lightdm  tty7         Mon Nov  9 03:12 - 03:13  (00:00)     :0
+kali     tty7         Fri Nov  6 12:47 - 13:32  (00:44)     :0
+lightdm  tty7         Fri Nov  6 12:39 - 12:47  (00:08)     :0
+kali     tty7         Wed Nov  4 12:14 - 13:16  (01:01)     :0
+lightdm  tty7         Wed Nov  4 12:13 - 12:14  (00:00)     :0
+kali     tty7         Tue Nov  3 13:13 - 14:25  (01:12)     :0
+lightdm  tty7         Tue Nov  3 13:12 - 13:13  (00:00)     :0
+lightdm  tty7         Tue Nov  3 13:11 - still logged in    :0
+kali     tty7         Fri Oct 30 04:57 - 05:08  (00:10)     :0
+lightdm  tty7         Fri Oct 30 04:57 - 04:57  (00:00)     :0
+kali     tty7         Tue Oct 20 03:35 - still logged in    :0
+lightdm  tty7         Tue Oct 20 03:35 - 03:35  (00:00)     :0
